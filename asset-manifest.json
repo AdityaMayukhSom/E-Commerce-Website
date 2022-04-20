@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/E-Commerce-Website/static/css/main.a40e90b2.css",
-    "main.js": "/E-Commerce-Website/static/js/main.99750bf6.js",
+    "main.js": "/E-Commerce-Website/static/js/main.b855d61c.js",
     "static/js/787.46493d11.chunk.js": "/E-Commerce-Website/static/js/787.46493d11.chunk.js",
     "static/media/Shathika.otf": "/E-Commerce-Website/static/media/Shathika.87842be430408434bee7.otf",
     "static/media/Attraction.ttf": "/E-Commerce-Website/static/media/Attraction.98e0f9c7d669f4bf754d.ttf",
@@ -10,11 +10,11 @@
     "static/media/Maghrib.ttf": "/E-Commerce-Website/static/media/Maghrib.9e90dcf7dc3b47215188.ttf",
     "index.html": "/E-Commerce-Website/index.html",
     "main.a40e90b2.css.map": "/E-Commerce-Website/static/css/main.a40e90b2.css.map",
-    "main.99750bf6.js.map": "/E-Commerce-Website/static/js/main.99750bf6.js.map",
+    "main.b855d61c.js.map": "/E-Commerce-Website/static/js/main.b855d61c.js.map",
     "787.46493d11.chunk.js.map": "/E-Commerce-Website/static/js/787.46493d11.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a40e90b2.css",
-    "static/js/main.99750bf6.js"
+    "static/js/main.b855d61c.js"
   ]
 }
