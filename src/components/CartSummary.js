@@ -2,7 +2,7 @@ import '../css/tailwind.min.css';
 
 const CartSummary = () => {
     return (
-        <div id="summary" className="w-1/4 px-8 py-10 bg-white">
+        <div id="summary" className="w-full lg:w-1/4 px-8 py-10 mr-6 bg-[#191919]">
             <h1 className="font-semibold text-3xl border-b pb-4">Order Summary</h1>
             <div className="flex justify-between mt-10 mb-5">
                 <span className="font-semibold text-sm uppercase">Items 2</span>
@@ -30,9 +30,11 @@ const CartSummary = () => {
                     <span>Total Cost</span>
                     <span>$810</span>
                 </div>
-                <button className="bg-gray-800 text-white font-medium  leading-tight rounded shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out py-3 text-sm  uppercase w-full">
-                    Checkout
-                </button>
+                <div className="flex items-end justify-end w-full">
+                    <button className="bg-gray-800 text-white font-medium lg:max-w-full max-w-[250px] leading-tight rounded shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out py-3 text-sm  uppercase w-full">
+                        Checkout
+                    </button>
+                </div>
             </div>
         </div>
     );

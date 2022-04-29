@@ -6,13 +6,13 @@ const Footer = () => {
     return (
         <footer className="bg-white pt-2 mt-4 ">
             <div className="flex flex-col lg:flex-row border-t-2 border-gray-200 mx-8 pt-4">
-                <div className="w-full lg:w-1/3 mb-10 px-8">
+                <div className="w-full  lg:w-1/3 mb-10 px-2 md:px-8">
                     <Link to="/" className="inline-flex">
                         <img className="h-24" src="./images/logo.jpg" alt="Logo"></img>
                     </Link>
                     <div className="">
-                        <div className=" tracking-wide pl-1 mt-2 mb-6 h-12">
-                            <span className="text-3xl lg:text-2xl  font-extrabold border-b-2 whitespace-nowrap border-black pb-3 text-black border-dashed">Subscribe For Updates</span>
+                        <div className=" tracking-wide pl-1 mt-2 mb-6 h-12 ">
+                            <span className="sm:text-xl md:text-3xl lg:text-2xl  font-extrabold border-b-2 whitespace-nowrap border-black pb-3 text-black border-dashed">Subscribe For Updates</span>
                         </div>
 
                         <form className="flex flex-col mt-2 md:flex-row">
@@ -37,7 +37,7 @@ const Footer = () => {
             </div>
 
             <div className="flex flex-col justify-between text-center md:text-left pt-4 pb-6 border-t border-gray-500 md:flex-row mx-10">
-                <div class="flex flex-col md:flex-row items-center">
+                <div className="flex flex-col md:flex-row items-center">
                     <p className="text-sm text-gray-600">© Copyright 2022. Built With ❤️ By Aditya Mayukh Som.</p>
                     <p className="text-sm px-0 md:px-1 text-gray-600">All Rights Reserved.</p>
                 </div>

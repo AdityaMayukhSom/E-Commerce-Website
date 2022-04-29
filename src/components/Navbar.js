@@ -59,9 +59,9 @@ const Navbar = () => {
             <div className={state ? '' : 'hidden'}>
                 <div className="inset-0 z-40 fixed">
                     <div className="absolute bg-gray-700 inset-0 opacity-75" onClick={() => openModal()}></div>
-                    <div className="absolute inset-0 w-1/2 min-w-[300px] bg-[#fff] shadow-lg h-full pt-4 flex flex-col">
+                    <div className="absolute inset-0 w-1/2 min-w-[230px] sm:min-w-[300px] bg-[#fff] shadow-lg h-full pt-4 flex flex-col">
                         <Link to="/" className="flex justify-center">
-                            <img className="h-36" src="./images/logo.jpg" alt="Logo"></img>
+                            <img className="h-24 sm:h-36" src="./images/logo.jpg" alt="Logo"></img>
                         </Link>
                         <ul className="flex flex-col px-8 py-5 text-xl">
                             <Link to="/">

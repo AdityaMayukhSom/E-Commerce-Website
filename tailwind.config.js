@@ -1,39 +1,35 @@
 module.exports = {
+    mode: 'jit',
+    content: ['./public/*.{html,js}', './*.{html,js}', './src/components/*.{html,js}'],
+    theme: {
+        screens: {
+            sm: '640px',
+            // => @media (min-width: 640px) { ... }
 
-	mode: 'jit',
-	content: [
-		'./public/*.{html,js}',
-		'./*.{html,js}',
-		'./src/components/*.{html,js}'],
-	theme: {
+            md: '768px',
+            // => @media (min-width: 768px) { ... }
 
-		screens: {
-			'sm': '640px',
-			// => @media (min-width: 640px) { ... }
+            lg: '1024px',
+            // => @media (min-width: 1024px) { ... }
 
-			'md': '768px',
-			// => @media (min-width: 768px) { ... }
+            xl: '1280px',
+            // => @media (min-width: 1280px) { ... }
 
-			'lg': '1024px',
-			// => @media (min-width: 1024px) { ... }
+            '2xl': '1536px'
+            // => @media (min-width: 1536px) { ... }
+        },
 
-			'xl': '1280px',
-			// => @media (min-width: 1280px) { ... }
-
-			'2xl': '1536px',
-			// => @media (min-width: 1536px) { ... }
-		},
-
-		extend: {
-			screens: {
-				'sl': '880px', //Sligtly Large
-				'sltlg': '950px', //still less than large
-				'llg': '1100px', //Larger Than Large
-			},
-			fontSize: {
-				'7xl': '4.5rem',
-				'8xl': '1rem',
-			},
-		},
-	}
-}
+        extend: {
+            screens: {
+                sl: '880px', //Sligtly Large
+                sltlg: '950px', //still less than large
+                llg: '1100px' //Larger Than Large
+            },
+            fontSize: {
+                '7xl': '4.5rem',
+                '8xl': '1rem'
+            }
+        }
+    },
+    plugins: [require('@tailwindcss/forms')]
+};
