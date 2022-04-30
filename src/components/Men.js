@@ -12,7 +12,7 @@ const Men = () => {
                     Men's Section
                 </div>
             </div>
-            <div className="grid grid-cols-1 bg-[#222222] text-[#b88746]  md:grid-cols-[210px_1fr]">
+            <div className="grid grid-cols-1 bg-[#222222] text-[#de993f] md:grid-cols-[210px_1fr]">
                 <div className="hidden md:block">
                     <ProductFilter />
                 </div>

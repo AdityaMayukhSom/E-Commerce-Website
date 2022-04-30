@@ -30,6 +30,5 @@ module.exports = {
                 '8xl': '1rem'
             }
         }
-    },
-    plugins: [require('@tailwindcss/forms')]
+    }
 };

@@ -36,17 +36,11 @@ const CartItem = (props) => {
                 <div className="w-full flex flex-col  sm:flex-row py-4 lg:py-0">
                     <div className="flex lg:inline-flex items-center w-full lg:w-1/3 justify-center">
                         <button className=" text-[#b88746] disabled:opacity-50 inline-flex items-center px-2 py-1 text-4xl" onClick={() => decreamentCount()}>
-                            {/* <svg className="h-6 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20 12H4" />
-                        </svg> */}
-                            =
+                            &minus;
                         </button>
                         <div className="text-[#b88746] inline-flex items-center px-4 py-1 select-none ">{count}</div>
                         <button className="text-[#b88746] disabled:opacity-50 inline-flex items-center px-2 py-1 text-3xl" onClick={() => increamentCount()}>
-                            {/* <svg className="h-6 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" />
-                        </svg> */}
-                            +
+                            &#43;
                         </button>
                     </div>
                     <div className="w-full lg:w-1/3 font-semibold flex justify-center items-center text-md">${price}</div>

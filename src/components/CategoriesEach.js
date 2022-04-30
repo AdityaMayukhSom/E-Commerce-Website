@@ -11,7 +11,7 @@ const CategoriesEach = (props) => {
                 </span>
             </div>
             <div className="px-6 py-3">
-                <h2 className="font-bold text-2xl text-gray-900 text-center capitalize font-cardo">{categoryName}</h2>
+                <h2 className="font-bold text-2xl text-[#de993f] text-center capitalize font-cardo">{categoryName}</h2>
             </div>
         </div>
     );

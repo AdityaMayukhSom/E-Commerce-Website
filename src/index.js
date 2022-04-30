@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './css/index.css';
 import App from './components/App.js';
 import reportWebVitals from './reportWebVitals';
-import { HashRouter as Router } from 'react-router-dom';
 import './fonts/Agatha.ttf';
 import './fonts/Attraction.ttf';
 import './fonts/LovelyCoffee.ttf';
 import './fonts/Maghrib.ttf';
 import './fonts/Shathika.otf';
+import { HashRouter as Router } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

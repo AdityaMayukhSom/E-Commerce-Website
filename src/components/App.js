@@ -1,6 +1,6 @@
 import '../css/tailwind.min.css';
-import Navbar from './Navbar';
 import { Route, Routes } from 'react-router-dom';
+import Navbar from './Navbar';
 import Home from './Home';
 import Men from './Men';
 import Women from './Women';

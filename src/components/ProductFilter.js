@@ -11,9 +11,7 @@ const ProductFilter = () => {
             <FilterList />
             <button
                 type="button"
-                className="max-w-[120px] inline-block px-6 py-2.5  focus:bg-gray-900 focus:shadow-lg mt-4
-                
-                bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-yellow-600 hover:shadow-lg  focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out"
+                className="max-w-[120px] inline-block px-6 py-2.5 my-4 bg-[#da9e1c] text-[#302605] font-semibold text-xs leading-tight uppercase rounded shadow-md hover:bg-[#f2bc3f] hover:shadow-lg  focus:outline-none focus:ring-0 active:bg-[#f2bc3f] active:shadow-lg transition duration-150 ease-in-out"
             >
                 Apply Now
             </button>

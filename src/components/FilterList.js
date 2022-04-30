@@ -1,7 +1,7 @@
 import '../css/tailwind.min.css';
 
 const FilterList = () => {
-    const checkBoxClass = ` text-[#222222] border-[#553f23] bg-[#222222] checked:border-2 checked:border-[#f6d428] hover:border-[#f6d428] checked:focus:border-[#f6d428] checked:hover:border-[#fff] `;
+    const checkBoxClass = `text-[#222222] border-[#553f23] bg-[#222222] checked:border-2 checked:border-[#f6d428] hover:border-[#f6d428] checked:focus:border-[#f6d428] checked:hover:border-[#fff] `;
     return (
         <div className="flex border-t-2 border-b-1 border-[#553f23] flex-col p-2">
             <h2 className=" text-lg font-semibold pb-2">Categories</h2>

@@ -3,6 +3,8 @@ import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 const Navbar = () => {
+    const navBarItemsClass = `hover:text-blue-700`;
+
     const [state, setState] = useState(false);
     const openModal = () => {
         if (state === false) {
@@ -20,19 +22,29 @@ const Navbar = () => {
                 <div className="hidden md:block">
                     <ul className="flex flex-row space-x-4">
                         <li className="">
-                            <Link to="/">Home</Link>
+                            <Link to="/" className={navBarItemsClass}>
+                                Home
+                            </Link>
                         </li>
                         <li className="">
-                            <Link to="/Men">Men</Link>
+                            <Link to="/Men" className={navBarItemsClass}>
+                                Men
+                            </Link>
                         </li>
                         <li className="">
-                            <Link to="/Women">Women</Link>
+                            <Link to="/Women" className={navBarItemsClass}>
+                                Women
+                            </Link>
                         </li>
                         <li className="">
-                            <Link to="/About">About</Link>
+                            <Link to="/About" className={navBarItemsClass}>
+                                About
+                            </Link>
                         </li>
                         <li className="">
-                            <Link to="/Contact">Contact</Link>
+                            <Link to="/Contact" className={navBarItemsClass}>
+                                Contact
+                            </Link>
                         </li>
                     </ul>
                 </div>

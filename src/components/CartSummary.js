@@ -31,7 +31,7 @@ const CartSummary = () => {
                     <span>$810</span>
                 </div>
                 <div className="flex items-end justify-end w-full">
-                    <button className="bg-gray-800 text-white font-medium lg:max-w-full max-w-[250px] leading-tight rounded shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out py-3 text-sm  uppercase w-full">
+                    <button className=" lg:max-w-full max-w-[250px]  w-full bg-[#da9e1c] text-[#302605] font-semibold  leading-tight rounded shadow-md hover:bg-[#f2bc3f] hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:bg-[#f2bc3f] active:shadow-lg transition duration-150 ease-in-out py-3 text-sm items-center justify-center  uppercase">
                         Checkout
                     </button>
                 </div>
