@@ -20,7 +20,7 @@ const ProductCard = (props) => {
     // };
 
     return (
-        <div className="flex justify-center items-center  md:mx-2 lg:mx-4 mx-4 my-4">
+        <div className="flex justify-center items-center  md:mx-2 lg:mx-4 mx-4 my-4 ">
             <div className="max-w-[400px] sm:max-w-[300px] md:max-w-[280px] w-full h-full lg:max-w-[350px] bg-[#191919] text-[#b88746] shadow rounded-lg overflow-hidden">
                 <div className="h-60 w-full bg-gray-200 flex flex-col justify-between bg-cover bg-center relative overflow-hidden rounded-t">
                     <img src={imageURL} alt="" className="w-full" />

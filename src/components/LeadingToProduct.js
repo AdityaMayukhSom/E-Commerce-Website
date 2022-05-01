@@ -13,7 +13,7 @@ const LeadingToProduct = () => {
 
     return (
         <div className="px-4 py-6 mx-auto flex flex-wrap">
-            <div className="w-full mb-10 text-2xl sm:text-3xl md:text-6xl font-bold text-center border-b-2 font-cardo drop-shadow-md border-[#de993f] pb-6 text-[#de993f] mx-12 md:mx-24">What Are You Waiting For?</div>
+            <div className="w-full mb-10 text-2xl sm:text-3xl md:text-6xl font-bold text-center border-b-2 font-cardo drop-shadow-md border-[#de993f] pb-6 text-[#de993f] mx-12 md:mx-24 select-none">Why Wait?</div>
             <div className="grid grid-cols-1 grid-rows-4 m-4 sm:grid-cols-2 sm:grid-rows-2 lg:grid-cols-4 gap-y-4 lg:grid-rows-1 w-full">
                 <Link to="/Men" className="flex justify-center items-center">
                     <LeadingToProductCard text="Shop For Mens" imgURL={menImage} />
