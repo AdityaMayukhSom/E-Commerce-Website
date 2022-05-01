@@ -3,35 +3,35 @@ import { Link } from 'react-router-dom';
 
 const SignUp = () => {
     return (
-        <div className="lg:h-screen h-auto">
+        <div className="min-h-screen">
             <div className="flex flex-row flex-wrap h-full ">
                 <Link to="/" className="flex w-full justify-center items-center mt-4 mb-8 md:hidden">
                     <img className="h-20 sm:h-32" src="./images/logoInvert.png" alt="Logo"></img>
                 </Link>
-                <div className="w-full lg:w-1/2 h-full min-h-[60vh] bg-[#272727] flex flex-col justify-center items-center p-12">
+                <div className="w-full lg:w-1/2 md:min-h-screen min-h-[60vh] bg-[#272727] flex flex-col justify-center items-center p-12">
                     <img src="./images/ECommerce2.svg" className="w-full h-full md:w-3/4 lg:w-5/6" alt="Phone" />
                 </div>
                 <div className="w-full  lg:w-1/2 flex flex-col items-center justify-center">
-                    <Link to="/" className="md:flex justify-center mt-4 mb-8 hidden">
-                        <img className="h-20 sm:h-32" src="./images/logoInvert.png" alt="Logo"></img>
+                    <Link to="/" className="md:flex justify-center mt-4 mb-6 hidden">
+                        <img className="h-20 sm:h-28" src="./images/logoInvert.png" alt="Logo"></img>
                     </Link>
                     <div className="flex w-full justify-center items-center mt-4 mb-8 font-bold font-poppins text-white text-5xl md:hidden pt-3 select-none">Sign Up</div>
                     <form className="max-w-[600px] min-w-[300px] sm:min-w-[450px]">
-                        <div className="mb-4">
+                        <div className="mb-3">
                             <input
                                 type="text"
                                 className="form-control block w-full px-4 py-2 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none font-poppins"
                                 placeholder="Enter Your Full Name"
                             />
                         </div>
-                        <div className="mb-4">
+                        <div className="mb-3">
                             <input
                                 type="number"
                                 className="form-control block w-full px-4 py-2 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none font-poppins"
                                 placeholder="Enter Mobile Number"
                             />
                         </div>
-                        <div className="mb-4">
+                        <div className="mb-3">
                             <input
                                 type="email"
                                 className="form-control block w-full px-4 py-2 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none font-poppins"
@@ -39,7 +39,7 @@ const SignUp = () => {
                             />
                         </div>
 
-                        <div className="mb-4">
+                        <div className="mb-3">
                             <input
                                 type="password"
                                 className="form-control block w-full px-4 py-2 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none font-poppins"
@@ -47,7 +47,7 @@ const SignUp = () => {
                                 autoComplete="true"
                             />
                         </div>
-                        <div className="mb-4">
+                        <div className="mb-3">
                             <input
                                 type="password"
                                 className="form-control block w-full px-4 py-2 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none font-poppins"
@@ -58,7 +58,7 @@ const SignUp = () => {
 
                         <button
                             type="submit"
-                            className="inline-block px-7 py-3 bg-blue-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out w-full font-poppins"
+                            className="inline-block px-7 py-3 bg-blue-600 text-white font-medium text-md leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out w-full font-poppins"
                             data-mdb-ripple="true"
                             data-mdb-ripple-color="light"
                         >
@@ -97,7 +97,7 @@ const SignUp = () => {
                             Continue with Twitter
                         </a>
                     </form>
-                    <div className="text-white py-2 font-poppins">
+                    <div className="text-white py-4 font-poppins">
                         Already A Member?{' '}
                         <Link to="/LogIn" className="text-blue-600 font-semibold hover:underline hover:underline-offset-2">
                             Log In
